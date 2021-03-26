@@ -12,16 +12,48 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap">
+  <link rel="stylesheet" href="./styles/styles.css">
+
   <script src="libs/particles.min.js"></script>
   <script defer src="./scripts/app.js"></script>
 </head>
 
 <body>
   <header>
-
+    <img src="./assets/income.svg" alt="Imagem de entradas" />
   </header>
 
   <main>
+    <section id="balance">
+      <h2 class="sr-only">Balanço</h2>
+
+      <div class="card green">
+        <h3>
+          <span>Entradas</span>
+          <img src="./assets/income.svg" alt="Imagem de entradas">
+        </h3>
+        <p id="incomeDisplay">R$ --.--</p>
+      </div>
+
+
+      <div class="card red">
+        <h3>
+          <span>Saídas</span>
+          <img src="./assets/expense.svg" alt="Imagem de saídas">
+        </h3>
+        <p id="expenseDisplay">R$ --,--</p>
+      </div>
+
+      <div class="card">
+        <h3>
+          <span>Total</span>
+          <img src="./assets/total.svg" alt="Imagem de total">
+        </h3>
+        <p id="totalDisplay">R$ --,--</p>
+      </div>
+    </section>
+
+    
 
   </main>
 

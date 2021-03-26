@@ -1,0 +1,59 @@
+html {
+    font-size: 93.75%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background: #2a2a2a;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Titles ============== */
+  h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: normal;
+  }
+  
+  /* Links & Buttons ============= */
+  a {
+    color: #fafafa;
+    text-decoration: none;
+  }
+  
+  button {
+    border: none;
+    border-radius: 1.8rem;
+    background: linear-gradient(18deg, rgba(102, 34, 195, 0.613365) 0%, rgba(73, 236, 228, 0.597) 68%, rgba(45, 253, 159, 0.921241) 100%);
+    font-size: 1.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+    padding: 1rem 1.8rem;
+    margin: auto;
+    color: white;
+    opacity: 0.7;
+    -webkit-transition: all 260ms ease-in-out;
+    transition: all 260ms ease-in-out;
+    cursor: pointer;
+  }
+
+  button:hover {
+      opacity: 1;
+  }
+
+  
